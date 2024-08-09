@@ -1,4 +1,4 @@
-#1. System Performance Monitoring Script
+# 1. System Performance Monitoring Script
 
 ## Overview
 
@@ -18,8 +18,8 @@ By automating these checks, the script helps in proactive system management, ena
 ```bash
 chmod +x system_check.sh
 sudo ./system_check.sh
-
-#2 Log Management Script
+```
+# 2. Log Management Script
 
 ## Overview
 
@@ -39,8 +39,8 @@ The script provides a solution for automating these log management tasks, ensuri
 ```bash
 chmod +x log_manage.sh
 sudo ./log_manage.sh
-
-#3 Advanced Shell Scripting - Loops, Conditions, Functions, and Error Handling
+```
+# 3. Advanced Shell Scripting - Loops, Conditions, Functions, and Error Handling
 
 ## Overview
 
@@ -61,8 +61,8 @@ By implementing these features, the script becomes more flexible, maintainable, 
 ```bash
 chmod +x logs_error_handling.sh
 sudo ./logs_error_handling.sh
-
-#4 Log Checking and Troubleshooting Script
+```
+# 4. Log Checking and Troubleshooting Script
 
 ## Overview
 
@@ -82,6 +82,18 @@ The script addresses these needs by providing automated log analysis and trouble
 ```bash
 chmod +x troubleshooting_logs.sh
 ./troubleshooting_logs.sh
+```
+
+## Output:
+- ![image](https://github.com/user-attachments/assets/efc18e24-3cac-44dc-9031-afd0b9a7e296)
+- ![image](https://github.com/user-attachments/assets/455a5d51-462c-4d02-a830-83adb79c35fe)
+- ![image](https://github.com/user-attachments/assets/7246c1a4-3344-4523-ad21-f1ad5db11c29)
+- ![image](https://github.com/user-attachments/assets/eedfd56b-fe44-4fcf-850a-37eb7bd9e155)
+- ![image](https://github.com/user-attachments/assets/1827b9fe-a5c5-40f3-aa77-fe1480d66787)
+
+
+
+
 
 
 
