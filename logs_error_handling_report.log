@@ -1,0 +1,22 @@
+Log Management Report - 2024-08-09 10:04:57
+---------------------------------
+[INFO] 2024-08-09 10:04:57 - Starting log rotation...
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: alternatives.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: ansible.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: apport.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: auth.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: boot.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: bootstrap.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: dpkg.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: fontconfig.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: gpu-manager.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: kern.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: log_error_handling_report.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: log_manager_error_handling_report.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: log_manager_report.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: system_monitor.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: ubuntu-advantage.log
+[INFO] 2024-08-09 10:04:57 - No rotation needed for: ufw.log
+[INFO] 2024-08-09 10:04:57 - Starting old log deletion...
+[INFO] 2024-08-09 10:04:57 - Old logs deletion completed.
+[INFO] 2024-08-09 10:04:57 - Log management completed.

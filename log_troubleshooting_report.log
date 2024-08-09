@@ -1,0 +1,60 @@
+Log Checking and Troubleshooting Report - 2024-08-09 10:15:24
+-------------------------------------------------
+Types of Logs Checked:
+- System Logs: /var/log/syslog
+- Application Logs: /var/log
+
+[INFO] 2024-08-09 10:15:24 - Checking system logs for common issues...
+Jul 30 10:11:12 AHMLPT1719 dockerd[2464]: time="2024-07-30T10:11:12.028258740+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (86d52a8e10c5cd4821124767f3282d9bd959b2aed5fff5d383534212988fa2e6): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Jul 30 10:11:14 AHMLPT1719 systemd[2864]: Failed to start Application launched by gnome-session-binary.
+Jul 30 10:11:14 AHMLPT1719 systemd[2864]: Failed to start Application launched by gnome-session-binary.
+Jul 30 10:11:14 AHMLPT1719 systemd[2864]: Failed to start Application launched by gnome-session-binary.
+Jul 30 10:11:15 AHMLPT1719 systemd[2864]: Failed to start Application launched by gnome-session-binary.
+Jul 30 10:11:15 AHMLPT1719 systemd[2864]: Failed to start Application launched by gnome-session-binary.
+Jul 30 10:11:15 AHMLPT1719 systemd[2864]: Failed to start Application launched by gnome-session-binary.
+Jul 30 11:37:52 AHMLPT1719 dockerd[2213]: time="2024-07-30T11:37:52.809237002+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (59daabebe2ab5d9b1888efdc4393a8fe5973b04b2df15be67efced65738d04b7): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Jul 30 11:37:54 AHMLPT1719 systemd[2637]: Failed to start Application launched by gnome-session-binary.
+Jul 30 11:37:54 AHMLPT1719 systemd[2637]: Failed to start Application launched by gnome-session-binary.
+Jul 30 11:37:54 AHMLPT1719 systemd[2637]: Failed to start Application launched by gnome-session-binary.
+Jul 30 11:37:55 AHMLPT1719 systemd[2637]: Failed to start Application launched by gnome-session-binary.
+Jul 30 11:37:55 AHMLPT1719 systemd[2637]: Failed to start Application launched by gnome-session-binary.
+Jul 31 09:47:17 AHMLPT1719 dockerd[2348]: time="2024-07-31T09:47:17.318173204+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (b259b81d71256c98e8b855141b56c969dd8d67299f0de7f65ea1606a5d0dc2d9): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Jul 31 09:47:25 AHMLPT1719 systemd[2902]: Failed to start Application launched by gnome-session-binary.
+Jul 31 09:47:25 AHMLPT1719 systemd[2902]: Failed to start Application launched by gnome-session-binary.
+Jul 31 09:47:25 AHMLPT1719 systemd[2902]: Failed to start Application launched by gnome-session-binary.
+Jul 31 09:47:26 AHMLPT1719 systemd[2902]: Failed to start Application launched by gnome-session-binary.
+Jul 31 22:04:43 AHMLPT1719 dockerd[2354]: time="2024-07-31T22:04:43.583321130+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (55a45820a82d4aa2fc758c9bdf26bba0a99a58b5dcf4e208cb979451ecae3967): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Jul 31 22:04:45 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Jul 31 22:04:45 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Jul 31 22:04:45 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Jul 31 22:04:47 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Aug  1 07:52:32 AHMLPT1719 dockerd[2187]: time="2024-08-01T07:52:32.403007137+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (77e04131f11c3fdb78e5da0b7dbe29e95820818db21bf7e96520306352843ce8): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Aug  1 07:52:34 AHMLPT1719 systemd[2618]: Failed to start Application launched by gnome-session-binary.
+Aug  1 07:52:34 AHMLPT1719 systemd[2618]: Failed to start Application launched by gnome-session-binary.
+Aug  1 07:52:35 AHMLPT1719 systemd[2618]: Failed to start Application launched by gnome-session-binary.
+Aug  1 07:52:35 AHMLPT1719 systemd[2618]: Failed to start Application launched by gnome-session-binary.
+Aug  1 08:02:49 AHMLPT1719 dockerd[2343]: time="2024-08-01T08:02:49.597022082+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (04fd65b7e9de88e349467a6673c6eed06de6f528fc121e03af6dbb3e53d4bae6): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Aug  1 08:02:52 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Aug  1 08:02:52 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Aug  1 08:02:52 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Aug  1 08:02:52 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Aug  1 08:02:53 AHMLPT1719 systemd[2784]: Failed to start Application launched by gnome-session-binary.
+Aug  1 14:03:37 AHMLPT1719 systemd[1]: Failed to start Refresh fwupd metadata and update motd.
+Aug  2 09:39:10 AHMLPT1719 dockerd[2345]: time="2024-08-02T09:39:10.167551686+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (656a4ea41875a65bce26ad78b80472e105e9efcdede664f431d8a9d119d75bde): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Aug  2 09:39:21 AHMLPT1719 systemd[3001]: Failed to start Application launched by gnome-session-binary.
+Aug  2 09:39:21 AHMLPT1719 systemd[3001]: Failed to start Application launched by gnome-session-binary.
+Aug  2 09:39:24 AHMLPT1719 systemd[3001]: Failed to start Application launched by gnome-session-binary.
+Aug  3 17:16:08 AHMLPT1719 dockerd[2352]: time="2024-08-03T17:16:08.977772771+05:30" level=error msg="failed to start container" container=18354a0a18a22368934c8a5aa9b88a14ac4cfd4b5b67c83ac3c289d801cd0e8e error="driver failed programming external connectivity on endpoint my-nginx-app-container (2ef008cfcca45fabf317b1a70c7fa0e707b1e90bc8a2ba7a7f9657999586f339): failed to bind port 0.0.0.0:80/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:80: bind: address already in use"
+Aug  3 17:16:12 AHMLPT1719 systemd[2917]: Failed to start Application launched by gnome-session-binary.
+Aug  3 17:16:12 AHMLPT1719 systemd[2917]: Failed to start Application launched by gnome-session-binary.
+Aug  3 17:16:12 AHMLPT1719 systemd[2917]: Failed to start Application launched by gnome-session-binary.
+Aug  3 17:16:14 AHMLPT1719 systemd[2917]: Failed to start Application launched by gnome-session-binary.
+Aug  3 17:16:14 AHMLPT1719 systemd[2917]: Failed to start Application launched by gnome-session-binary.
+[WARNING] 2024-08-09 10:15:24 - Failed service starts found in system logs.
+Possible causes:
+- Incorrect service configuration.
+- Missing dependencies or incorrect permissions.
+- Service not installed or not available.
+
+[INFO] 2024-08-09 10:15:24 - Checking application logs for common issues...
+[INFO] 2024-08-09 10:15:24 - Log checking and troubleshooting completed.
